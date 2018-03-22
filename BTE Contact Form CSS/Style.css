@@ -1,0 +1,28 @@
+body{
+	font-family: arial;                          /* Change font */
+	}
+
+input{
+	padding: 5px;
+	margin: 10px;
+	display: inline-block;
+}
+
+input:focus{
+	border-color: #3aff9c;
+}
+
+input[type=submit]{
+	border-radius: 4px;
+	background-color: #44efff;
+	color: black;
+	cursor: pointer;
+	border: none;
+	float: left;
+}
+
+input[type=submit]:hover{
+	background-color: #3a9aa3;
+	color: white;
+}
+
